@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oneviewbiblestudy/static/css/main.e7af0efc.css",
-    "main.js": "/oneviewbiblestudy/static/js/main.9ae70afc.js",
-    "static/js/453.9788291a.chunk.js": "/oneviewbiblestudy/static/js/453.9788291a.chunk.js",
-    "index.html": "/oneviewbiblestudy/index.html",
-    "main.e7af0efc.css.map": "/oneviewbiblestudy/static/css/main.e7af0efc.css.map",
-    "main.9ae70afc.js.map": "/oneviewbiblestudy/static/js/main.9ae70afc.js.map",
-    "453.9788291a.chunk.js.map": "/oneviewbiblestudy/static/js/453.9788291a.chunk.js.map"
+    "main.css": "/oneviewbiblestudy-brown/static/css/main.89ab5436.css",
+    "main.js": "/oneviewbiblestudy-brown/static/js/main.80d22b4f.js",
+    "static/js/453.a4c61be9.chunk.js": "/oneviewbiblestudy-brown/static/js/453.a4c61be9.chunk.js",
+    "index.html": "/oneviewbiblestudy-brown/index.html",
+    "main.89ab5436.css.map": "/oneviewbiblestudy-brown/static/css/main.89ab5436.css.map",
+    "main.80d22b4f.js.map": "/oneviewbiblestudy-brown/static/js/main.80d22b4f.js.map",
+    "453.a4c61be9.chunk.js.map": "/oneviewbiblestudy-brown/static/js/453.a4c61be9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7af0efc.css",
-    "static/js/main.9ae70afc.js"
+    "static/css/main.89ab5436.css",
+    "static/js/main.80d22b4f.js"
   ]
 }
