@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap');
 
 :root {
-  /* Brown & Gold theme */
-  --white: #FDFAF5;
-  --bg: #F5EDD8;
-  --bg2: #EDE0C4;
-  --border: #D4C4A0;
-  --border-lt: #E8DCC0;
-  --ink: #1C1208;
-  --ink-md: #4A3520;
-  --ink-lt: #8A7258;
-  --rose: #B8813A;
-  --rose-lt: #D4A870;
-  --rose-pale: #FDF5E8;
-  --gold: #8B6914;
-  --gold-lt: #D4B870;
-  --gold-pale: #FBF5E0;
+  --white: #FFFFFF;
+  --bg: #F8F6F3;
+  --bg2: #F2EDE7;
+  --border: #E8E2DA;
+  --border-lt: #F0EBE4;
+  --ink: #2A2420;
+  --ink-md: #6B5E56;
+  --ink-lt: #A0928A;
+  --rose: #C4879A;
+  --rose-lt: #EDD5DC;
+  --rose-pale: #F9F1F4;
+  --gold: #B8975A;
+  --gold-lt: #E8D9B8;
+  --gold-pale: #FAF6EE;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
 html { font-size: 16px; }
+
 body {
   font-family: 'Jost', sans-serif;
   background: var(--bg);
@@ -28,8 +29,11 @@ body {
   font-weight: 300;
   overscroll-behavior: none;
 }
+
 button { font-family: 'Jost', sans-serif; cursor: pointer; }
 input, select, textarea { font-family: 'Jost', sans-serif; }
+
+/* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }

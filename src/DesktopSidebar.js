@@ -10,24 +10,24 @@ export default function DesktopSidebar({ active, onChange }) {
   return (
     <div style={{
       width: 240, minWidth: 240,
-      background: '#2C1A0A',
-      borderRight: '1px solid #4A3520',
+      background: 'var(--white)',
+      borderRight: '1px solid var(--border)',
       display: 'flex', flexDirection: 'column',
       height: '100vh', position: 'sticky', top: 0, overflowY: 'auto',
     }}>
       {/* Logo */}
-      <div style={{ padding: '28px 22px 22px', borderBottom: '1px solid #4A3520' }}>
-        <div style={{ color:'#C9A84C', fontSize:'0.7rem', letterSpacing:10, opacity:0.5, marginBottom:10 }}>✦ ✦ ✦</div>
+      <div style={{ padding: '28px 22px 22px', borderBottom: '1px solid var(--border)' }}>
+        <div style={{ color:'var(--rose)', fontSize:'0.7rem', letterSpacing:10, opacity:0.4, marginBottom:10 }}>✦ ✦ ✦</div>
         <div style={{
           fontFamily:"'Cormorant Garamond', serif",
-          fontSize: '1.4rem', fontWeight: 400, color: '#F5EDD8', lineHeight: 1.15, marginBottom: 6
+          fontSize: '1.4rem', fontWeight: 400, color: 'var(--ink)', lineHeight: 1.15, marginBottom: 6
         }}>
           OneView<br/>
-          <em style={{ fontStyle:'italic', color:'#C9A84C', fontWeight:300 }}>Bible Study</em>
+          <em style={{ fontStyle:'italic', color:'var(--rose)', fontWeight:300 }}>Bible Study</em>
         </div>
         <div style={{
           fontSize: '0.58rem', letterSpacing: '0.22em', textTransform: 'uppercase',
-          color: 'rgba(245,237,216,0.4)', marginBottom: 0
+          color: 'var(--ink-lt)', marginBottom: 0
         }}>
           Your Word · Your Study · Every Day
         </div>
@@ -42,8 +42,8 @@ export default function DesktopSidebar({ active, onChange }) {
             style={{
               width: '100%', display: 'flex', alignItems: 'center', gap: 12,
               padding: '11px 14px', borderRadius: 6, border: 'none',
-              background: active === item.id ? 'rgba(201,168,76,0.15)' : 'transparent',
-              borderLeft: `3px solid ${active === item.id ? '#C9A84C' : 'transparent'}`,
+              background: active === item.id ? 'var(--rose-pale)' : 'transparent',
+              borderLeft: `3px solid ${active === item.id ? 'var(--rose)' : 'transparent'}`,
               cursor: 'pointer', marginBottom: 3, transition: 'all 0.15s', textAlign: 'left',
             }}
           >
@@ -51,12 +51,12 @@ export default function DesktopSidebar({ active, onChange }) {
             <div>
               <div style={{
                 fontSize: '0.78rem', fontWeight: active === item.id ? 500 : 400,
-                color: active === item.id ? '#C9A84C' : 'rgba(245,237,216,0.65)',
+                color: active === item.id ? 'var(--rose)' : 'var(--ink-md)',
                 letterSpacing: '0.02em', marginBottom: 1,
                 fontFamily: "'Jost', sans-serif",
               }}>{item.label}</div>
               <div style={{
-                fontSize: '0.58rem', color: 'rgba(245,237,216,0.3)',
+                fontSize: '0.58rem', color: 'var(--ink-lt)',
                 letterSpacing: '0.06em', fontFamily: "'Jost', sans-serif",
               }}>{item.desc}</div>
             </div>
@@ -65,14 +65,14 @@ export default function DesktopSidebar({ active, onChange }) {
       </nav>
 
       {/* Bottom */}
-      <div style={{ padding: '14px 18px', borderTop: '1px solid #4A3520' }}>
+      <div style={{ padding: '14px 18px', borderTop: '1px solid var(--border)' }}>
         <div style={{
           width: 32, height: 1,
-          background: 'linear-gradient(90deg, #C9A84C, #8B6914)',
+          background: 'linear-gradient(90deg, var(--rose), var(--gold))',
           marginBottom: 10
         }}/>
         <div style={{
-          fontSize: '0.56rem', color: 'rgba(245,237,216,0.25)',
+          fontSize: '0.56rem', color: 'var(--ink-lt)',
           letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.6
         }}>
           Your notes stay<br/>on your device
