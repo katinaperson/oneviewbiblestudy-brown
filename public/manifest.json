@@ -8,7 +8,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#C4879A",
-  "background_color": "#F8F6F3",
+  "theme_color": "#3D2B1A",
+  "background_color": "#F5EDD8",
   "orientation": "portrait"
 }

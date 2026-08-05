@@ -1,5 +1,5 @@
 {
-  "name": "oneview-bible-study",
+  "name": "oneview-bible-study-brown",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://katinaperson.github.io/oneviewbiblestudy"
+  "homepage": "https://katinaperson.github.io/oneviewbiblestudy-brown"
 }
